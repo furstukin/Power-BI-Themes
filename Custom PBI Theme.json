@@ -1,7 +1,61 @@
  {
- 	"name": "Custom Theme",
+ 	"name": "BOTW CC Theme",
  	"dataColors": ["#0902FF", "#002050", "#A80000", "#5C2D91", "#004B50", "#03FF22", "#114400", "#AACC66"],
  	"visualStyles": {
+		"multiRowCard": {
+			"*": {
+				"border": [{
+					"show": true,
+					"outlineColor": {
+						"solid": {
+							"color": "#000000"
+						}
+					}
+				}],
+				"background": [{
+					"show": {
+						"expr": {
+							"Literal": {
+								"Value": "true"
+							}
+						}
+					},
+					"color": {
+						"solid": {
+							"color": "#00925B"
+						}
+					},
+					"transparency": 0
+				}],
+				"dataLabels": [{
+					"color": { "solid": { "color": "#FFFFFF"}},
+					"fontSize": 13,
+					"fontFamily": "Calibri"
+				}],
+				"categoryLabels": [{
+					"show": true,
+					"color": { "solid": { "color": "#000000"}},
+					"fontSize": 13,
+					"fontFamily": "Calibri"
+				}],
+				"title": [{
+					"show": true,
+					"fontColor": { "solid": { "color": "#FFFFFF"}},
+					"fontSize": 15,
+					"fontFamily": "Calibri"
+				}],
+				"card": [{
+					"outline": "None",
+					"outlineColor": { "solid": { "color": "#000000"}},
+					"outlineWeight": 2,
+					"barShow": true,
+					"barColor": { "solid": { "color": "#000000"}},
+					"barWeight": 3,
+					"cardPadding": 20,
+					"cardBackground": { "solid": { "color": "#00925B"}}
+				}]
+			}
+		},
 		"map": {
 			"*": {
 				"border": [{
@@ -854,6 +908,21 @@
  						}
  					},
  					"transparency": 0
+ 				}],
+ 				"title": [{
+ 					"fontColor": {
+ 						"solid": {
+ 							"color": "#FFFFFF"
+ 						}
+ 					},
+ 					"backColor": {
+ 						"solid": {
+ 							"color": ""
+ 						}
+ 					},
+ 					"alignment": "Left",
+ 					"fontFamily": "Calibri",
+ 					"fontSize": 15
  				}],
  				"legend": [{
  					"show": true,
