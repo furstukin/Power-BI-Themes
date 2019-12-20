@@ -5,18 +5,19 @@ Contains json theme file that edits the default theme for the majority of the st
 Theme Colors:
 1.	Background Green
 
-  a.	#00925B
+a.	#00925B
+  
 2.	Alternating Colors
 
-  a.	Light Green #5FB157
+a.	Light Green #5FB157
   
-  b.	Dark Green #2B635E
+b.	Dark Green #2B635E
   
 3.	Color Gradient
 
-  a.	Light Green #00cc29
+a.	Light Green #00cc29
   
-  b.	Dark Green #00470e
+b.	Dark Green #00470e
   
 
 Data Colors (used in visualiztions to show categories of data)
